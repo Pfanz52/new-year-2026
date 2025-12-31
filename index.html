@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>🎆 Chúc Mừng Năm Mới 2026</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Nền sao -->
+    <canvas id="stars"></canvas>
+
+    <!-- Pháo hoa -->
+    <canvas id="fireworks"></canvas>
+
+    <!-- Layer nội dung -->
+    <main class="stage">
+      <section class="hero">
+        <div class="badge">✨ 2026 ✨</div>
+
+        <h1 class="title">
+          CHÚC MỪNG<br />
+          NĂM MỚI
+        </h1>
+
+        <p class="to">Gửi đến: <span id="recipient">cô</span> 💖</p>
+        <p class="wish">
+          Chúc bạn một năm mới<br />
+          <b>Sức khoẻ</b> — <b>Bình an</b> — <b>Thành công</b> 🌸
+        </p>
+
+        <div class="hint">Click / chạm màn hình để bắn pháo hoa 🎆</div>
+      </section>
+
+      <!-- Các bubble/ảnh bay -->
+      <section id="floatLayer" class="float-layer" aria-hidden="true"></section>
+      <audio id="bgm" src="music_new_year.mp4" preload="auto" loop></audio>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
